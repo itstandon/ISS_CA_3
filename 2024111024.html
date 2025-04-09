@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stacked A-Frame Scene</title>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Base plane -->
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="6" height="6" color="#7BC8A4"></a-plane>
+
+      <!-- Shape 1: Cone at the bottom -->
+      <a-cone position="0 0.75 -4" radius-bottom="0.8" radius-top="0.2" height="1.5" color="#FF6F61"></a-cone>
+
+      <!-- Shape 2: Sphere on top of cone -->
+      <a-sphere position="0 2.7 -4" radius="0.5" color="#6A5ACD"></a-sphere>
+
+      <!-- Shape 3: Dodecahedron on top of sphere -->
+      <a-dodecahedron position="0 4.2 -4" radius="0.5" color="#20B2AA"></a-dodecahedron>
+
+      <!-- Sky background -->
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+
+    <p>
+      A-FrameJS stacked shapes using <a href="https://aframe.io/docs/1.7.0/components/geometry.html" target="_blank">geometry</a> components.<br>
+      Submit your <strong>2024111024.html</strong> page on GitHub Pages:<br>
+      <code>https://yourusername.github.io/2024111024.html</code><br>
+      And fill out the <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=vDsaA3zPK06W7IZ1VVQKHFzW4INMf2JMjyL9qPnlPbNUMkpZQkY1SlpKWUtQWTY5RVVNS0k2RFQyRi4u" target="_blank">form here</a>.
+    </p>
+  </body>
+</html>
+
